@@ -2,11 +2,21 @@
 <html class="no-js" lang="en">
 <head>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165740365-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-165740365-1');
+    </script>
+
     <!-- Hlavná stránka časopisu Park-->
     <!--- basic page needs 
     ================================================== -->
     <meta charset="utf-8">
-    <title>Kategórie GPM-Časopis</title>
+    <title>GPM - Časopis Domov</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -16,18 +26,18 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="ˇ../css/vendor.css">
+    <link rel="stylesheet" href="../css/main.css">
 
     <!-- script
     ================================================== -->
-    <script src="js/modernizr.js"></script>
+    <script src="../js/modernizr.js"></script>
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
 
 </head>
 
@@ -49,8 +59,8 @@
     <header class="s-header header">
 
         <div class="header__logo">
-            <a class="logo" href="index.html">
-                <img src="images/main-logo.png" alt="Homepage">
+            <a class="logo" href="../index.html">
+                <img src="../images/main-logo.png" alt="Homepage">
             </a>
         </div> <!-- end header__logo -->
 
@@ -79,12 +89,12 @@
                 <li class="has-children">
                     <a href="#0" title="">Kategórie</a>
                     <ul class="sub-menu">
-                        <li><a href="kategoria-skola.html">Škola</a></li>
-                        <li><a href="kategoria-filmy.html">Filmy</a></li>
-                        <li><a href="kategoria-skola.html">Hudba</a></li>
-                        <li><a href="category.html">Recepty</a></li>
-                        <li><a href="kategoria-skola.html">Hry</a></li>
-                        <li><a href="category.html">Šport</a></li>
+                        <li><a href="./kategoria-skola.html">Škola</a></li>
+                        <li><a href="./kategoria-filmy.html">Filmy</a></li>
+                        <li><a href="./kategoria-hudba.html">Hudba</a></li>
+                        <li><a href="./kategoria-recepty.html">Recepty</a></li>
+                        <li><a href="./kategoria-hry.html">Hry</a></li>
+                        <li><a href="./kategoria-sport.html">Šport</a></li>
                     </ul>
                 </li>
                 <li class="has-children">
@@ -95,9 +105,9 @@
                         <li><a href="single-standard.html">Standard Post</a></li> -->
                     </ul>
                 </li>
-                <li><a href="style-guide.html" title="">Náš Team</a></li>
-                <li><a href="page-about.html" title="">O nás</a></li>
-                <li><a href="page-contact.html" title="">Kontakt</a></li>
+                <li><a href="../NasTeam.html" title="">Náš Team</a></li>
+                <li><a href="../page-about.html" title="">O nás</a></li>
+                <li><a href="../page-contact.html" title="">Kontakt</a></li>
             </ul> <!-- end header__nav -->
 
             <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Zatvoriť</a>
@@ -107,28 +117,70 @@
     </header> <!-- s-header -->
 
 
-
     <!-- s-content
     ================================================== -->
     <section class="s-content s-content--top-padding">
 
         <div class="row narrow">
             <div class="col-full s-content__header" data-aos="fade-up">
-                <h1 class="display-1 display-1--with-line-sep">Ľutujeme, v tejto kategórií sa momentálne nenachádzaj žiadne nové články.</h1>
-                <p class="lead">Na nové články sa však môžete tešiť už čoskoro.</p>
+                <h1 class="display-1 display-1--with-line-sep">Kategória: Filmy</h1>
+                <p class="lead">V tejto kategórií nájdete všetky novinky zo sveta filmov a kín.</p>
             </div>
         </div>
         
+        <div class="row entries-wrap add-top-padding wide">
+            <div class="entries">
+
+                <article class="col-block">
+                    
+                    <div class="item-entry" data-aos="zoom-in">
+                        <div class="item-entry__thumb">
+                            <a href="../articles/movies/top5filmov/single-standard.html" class="item-entry__thumb-link">
+                                <img src="../images/movie.jpg" alt="">
+                            </a>
+                        </div>
+        
+                        <div class="item-entry__text">
+                            <div class="item-entry__cat">
+                                <a href="kategoria-filmy.html">Filmy</a>
+                            </div>
+    
+                            <h1 class="item-entry__title"><a href="../articles/movies/top5filmov/single-standard.html">Top 5 filmov, ktoré si musíte pozrieť po karanténe.</a></h1>
+                                
+                            <div class="item-entry__date">
+                                <a href="../articles/movies/top5filmov/single-standard.html">4. Máj 2020</a>
+                            </div>
+                        </div>
+                    </div> <!-- item-entry -->
+    
+                </article> <!-- end article -->
+
+            </div> <!-- end entries -->
+        </div> <!-- end entries-wrap -->
 
         <div class="row pagination-wrap">
             <div class="col-full">
+                <nav class="pgn" data-aos="fade-up">
+                    <ul>
+                        <li><a class="pgn__prev" href="#0">Prev</a></li>
+                        <li><a class="pgn__num" href="#0">1</a></li>
+                        <li><span class="pgn__num current">2</span></li>
+                        <li><a class="pgn__num" href="#0">3</a></li>
+                        <li><a class="pgn__num" href="#0">4</a></li>
+                        <li><a class="pgn__num" href="#0">5</a></li>
+                        <li><span class="pgn__num dots">…</span></li>
+                        <li><a class="pgn__num" href="#0">8</a></li>
+                        <li><a class="pgn__next" href="#0">Next</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
 
     </section> <!-- end s-content -->
 
 
-         <!-- s-extra
+ 
+      <!-- s-extra
     ================================================== -->
     <section class="s-extra">
 
@@ -207,12 +259,12 @@
                         <h3>Kategórie</h3>
         
                         <ul class="linklist">
-                            <li><a href="#0">Škola</a></li>
-                            <li><a href="#0">Filmy</a></li>
-                            <li><a href="#0">Hudba</a></li>
-                            <li><a href="#0">Recepty</a></li>
-                            <li><a href="#0">Hry</a></li>
-                            <li><a href="#0">Šport</a></li>
+                            <li><a href="kategoria-skola.html">Škola</a></li>
+                            <li><a href="kategoria-filmy.html">Filmy</a></li>
+                            <li><a href="kategoria-hudba.html">Hudba</a></li>
+                            <li><a href="kategoria-recepty.html">Recepty</a></li>
+                            <li><a href="kategoria-hry.html">Hry</a></li>
+                            <li><a href="kategoria-sport.html">Šport</a></li>
                         </ul>
                     </div> <!-- end categories -->
         
@@ -220,11 +272,11 @@
                         <h3>Ostatné</h3>
         
                         <ul class="linklist">
-                            <li><a href="#0">Domov</a></li>
-                            <li><a href="#0">Archív</a></li>
-                            <li><a href="#0">Náš team</a></li>
-                            <li><a href="#0">O nás</a></li>
-                            <li><a href="#0">Kontakt</a></li>
+                            <li><a href="../index.html">Domov</a></li>
+                            <li><a href="../single-video.html">Archív</a></li>
+                            <li><a href="../NasTeam.html">Náš team</a></li>
+                            <li><a href="../page-about.html">O nás</a></li>
+                            <li><a href="../page-contact.html">Kontakt</a></li>
                             <li><a href="#0">Zásady používania</a></li>
                         </ul>
                     </div> <!-- end sitelinks -->
@@ -246,10 +298,10 @@
                         
                     <h4>O časopise Park</h4>
 
-                    <p>Fugiat quas eveniet voluptatem natus. Placeat error temporibus magnam sunt optio aliquam. Ut ut occaecati placeat at. 
-                    Fuga fugit ea autem. Dignissimos voluptate repellat occaecati minima dignissimos mollitia consequatur.
-                    Sit vel delectus amet officiis repudiandae est voluptatem. Tempora maxime provident nisi et fuga et enim exercitationem ipsam. Culpa error 
-                    temporibus magnam est voluptatem.</p>
+                    <p> Časopis Park je projektom študentov Gymnázia Park mládeže 5 v Košiciach. Naším cieľom je prinášať študentom a učiteľom najčerstvejšie novinky z diania na našej škole a vo svete. 
+                       Taktiež pravidelne publikume rubriky o Filmoch, Hrách či Hudbe. Organizujeme rôzne projekty a súťaže a zásobujeme našich čitateľov dávkou zábavy vo forme memečiek, alebo im zachraňujeme krk 
+                       našimi žolíkmi. Ďakujeme, že ste navštívili našu novú webstránku. Ak máte akýkoľvek návrh alebo otázku napíšte nám ho <a href="page-contact.html">tu</a>.
+                    </p>
 
                 </div> <!-- end s-footer__about -->
 
@@ -257,14 +309,14 @@
                         
                     <h4>Prihlás sa na odber noviniek</h4>
 
-                    <p>Sit vel delectus amet officiis repudiandae est voluptatem. Tempora maxime provident nisi et fuga et enim exercitationem ipsam. Culpa consequatur occaecati.</p>
+                    <p>Chceš byť stále v obraze a informovaný o nových súťažiach a článkoch, alebo si chceš dokonca zvýšiť šancu na výhru žolíka? Prihlás sa na odber noviniek pomocou tvojej e-mailovej adresy a už ti nikdy nič neunikne! :)</p>
 
                     <div class="subscribe-form">
                         <form id="mc-form" class="group" novalidate="true">
 
-                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Tvoja mailová adresa" required="">
                 
-                            <input type="submit" name="subscribe" value="Send">
+                            <input type="submit" name="subscribe" value="Prihlásiť sa">
                 
                             <label for="mc-email" class="subscribe-message"></label>
                 
@@ -290,12 +342,12 @@
                         <li>
                             <a href="#0"><i class="fab fa-instagram"></i></a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="#0"><i class="fab fa-youtube"></i></a>
                         </li>
                         <li>
                             <a href="#0"><i class="fab fa-pinterest"></i></a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
 
@@ -319,9 +371,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Všet
 
     <!-- Java Script
     ================================================== -->
-    <script src="../../../js/jquery-3.2.1.min.js"></script>
-    <script src="../../../js/plugins.js"></script>
-    <script src="../../../js/main.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
 
 </body>
 
