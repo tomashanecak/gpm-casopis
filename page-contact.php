@@ -41,13 +41,13 @@
 
     <!-- preloader
     ================================================== -->
-    <div id="preloader">
+    <!-- <div id="preloader">
         <div id="loader" class="dots-fade">
             <div></div>
             <div></div>
             <div></div>
         </div>
-    </div>
+    </div> -->
 
 
     <!-- header
@@ -172,7 +172,7 @@
 
                 <h4>Napíš nám tu:</h4>
 
-                <form name="cForm" id="cForm" class="contact-form" method="post" action="">
+                <form name="cForm" id="cForm" class="contact-form" method="post" action="includes/contact-formulary.php">
                     <fieldset>
 
                         <div>
@@ -184,17 +184,57 @@
                         </div>
 
                         <div class="form-field">
-                            <input name="cWebsite" id="cWebsite" class="full-width" placeholder="Trieda" value="" type="text">
+                            <input name="cClass" id="cWebsite" class="full-width" placeholder="Trieda" value="" type="text">
                         </div>
 
                         <div class="message form-field">
                         <textarea name="cMessage" id="cMessage" class="full-width" placeholder="Tvoja správa*"></textarea>
                         </div>
 
-                        <button type="submit" class="submit btn btn--primary btn--large full-width">Send Message</button>
+                        <button type="submit" name ="submit" class="submit btn btn--primary btn--large full-width">Send Message</button>
 
                     </fieldset>
                 </form> 
+
+
+                <?php 
+                    //error handling
+                        
+                    if (!isset($_GET["error"])) {
+                        echo "";
+
+                    } else {
+                        $contactCheck = $_GET["error"];
+
+                        if ($contactCheck == "empty") {
+                            echo "<p style = 'font-weight: bold; color:red;'> Prosím vyplňte všetky povinné okná! </p>";
+                            //keep the page scroll
+                            echo " <script>
+                            document.addEventListener('DOMContentLoaded', function(event) { 
+                                var scrollpos = localStorage.getItem('scrollpos');
+                                if (scrollpos) window.scrollTo(0, scrollpos);
+                            });
+                    
+                            window.onbeforeunload = function(e) {
+                                localStorage.setItem('scrollpos', window.scrollY);
+                            };
+                            </script>";
+                            
+                        } elseif($contactCheck == "invalidmail")
+                            echo "<p style = 'font-weight: bold; color:red;'> Prosím zadajte platnú E-Mailovú adresu!</p>";  
+                            //keep the page scroll
+                            echo " <script>
+                            document.addEventListener('DOMContentLoaded', function(event) { 
+                                var scrollpos = localStorage.getItem('scrollpos');
+                                if (scrollpos) window.scrollTo(0, scrollpos);
+                            });
+                    
+                            window.onbeforeunload = function(e) {
+                                localStorage.setItem('scrollpos', window.scrollY);
+                            };
+                            </script>";  
+                    }
+                ?>
 
             </div> <!-- s-content__main -->
         </div> <!-- end row -->
@@ -364,12 +404,12 @@
                         <li>
                             <a href="#0"><i class="fab fa-instagram"></i></a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="#0"><i class="fab fa-youtube"></i></a>
                         </li>
                         <li>
                             <a href="#0"><i class="fab fa-pinterest"></i></a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
 
