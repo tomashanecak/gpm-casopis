@@ -12,6 +12,9 @@
     gtag('config', 'UA-165740365-1');
     </script>
 
+    <!-- Google adsense-->
+    <script data-ad-client="ca-pub-8700113901026031" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
     <!-- Hlavná stránka časopisu Park-->
     <!--- basic page needs 
     ================================================== -->
@@ -341,6 +344,30 @@
                 
                     <div class="item-entry" data-aos="zoom-in">
                         <div class="item-entry__thumb">
+                            <a href="articles/music/top5skladieb/top5skladieb.html" class="item-entry__thumb-link">
+                                <img src="images/teacher.jpg">
+                            </a>
+                        </div>
+        
+                        <div class="item-entry__text">
+                            <div class="item-entry__cat">
+                                <a href="categories/kategoria-skola.html">Škola</a>
+                            </div>
+    
+                            <h1 class="item-entry__title"><a href="articles/school/ucitelia/ucitelia.html"> Profesori ako ste ich ešte nevideli!</a></h1>
+                                
+                            <div class="item-entry__date">
+                                <a href="articles/school/ucitelia/ucitelia.html">12. Máj 2020</a>
+                            </div>
+                        </div>
+                    </div> <!-- item-entry -->
+
+                </article> <!-- end article -->
+
+                <article class="col-block">
+                
+                    <div class="item-entry" data-aos="zoom-in">
+                        <div class="item-entry__thumb">
                             <a href="#0" class="item-entry__thumb-link">
                                 <img src="images/thumbs/post/watch-400.jpg" 
                                      srcset="images/thumbs/post/watch-400.jpg 1x, images/thumbs/post/watch-800.jpg 2x" alt="">
@@ -519,11 +546,11 @@
                     <p>Chceš byť stále v obraze a informovaný o nových súťažiach a článkoch, alebo si chceš dokonca zvýšiť šancu na výhru žolíka? Prihlás sa na odber noviniek pomocou tvojej e-mailovej adresy a už ti nikdy nič neunikne! :)</p>
 
                     <div class="subscribe-form">
-                        <form id="mc-form" class="group" novalidate="true">
+                        <form action="includes/email.php" id="mc-form" class="group" novalidate="true" method="POST">
 
                             <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Tvoja mailová adresa" required="">
                 
-                            <input type="submit" name="subscribe" value="Prihlásiť sa">
+                            <button type="submit" name="subscribe">Prihlásiť sa</button>
                 
                             <label for="mc-email" class="subscribe-message"></label>
                 
@@ -563,6 +590,8 @@
                         <span>
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> Všetky práva vyhradené | Táto stránka bola vytvorená zo <i class="fa fa-heart" aria-hidden="true"></i> od <a href="https://www.facebook.com/Tomas.Hani.Hanecak" target="_blank">Tomi Hanečák</a>
 </span>
+
+<a href="cms-admin.php"><p style="font-weight:bold; position: relative; left: 0px; padding-top: 20px;">CMS Admin</p></a>
                     </div>
                 </div>
                 

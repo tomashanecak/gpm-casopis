@@ -55,7 +55,7 @@
     <header class="s-header header">
 
         <div class="header__logo">
-            <a class="logo" href="index.html">
+            <a class="logo" href="index.php">
                 <img src="images/main-logo.png" alt="Homepage">
             </a>
         </div> <!-- end header__logo -->
@@ -81,7 +81,7 @@
             <h2 class="header__nav-heading h6">Prejsť na</h2>
 
             <ul class="header__nav">
-                <li class="current"><a href="index.html" title="">Domov</a></li>
+                <li class="current"><a href="index.php" title="">Domov</a></li>
                 <li class="has-children">
                     <a href="#0" title="">Kategórie</a>
                     <ul class="sub-menu">
@@ -103,7 +103,7 @@
                 </li>
                 <li><a href="NasTeam.html" title="">Náš Team</a></li>
                 <li><a href="page-about.html" title="">O nás</a></li>
-                <li><a href="page-contact.html" title="">Kontakt</a></li>
+                <li><a href="page-contact.php" title="">Kontakt</a></li>
             </ul> <!-- end header__nav -->
 
             <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Zatvoriť</a>
@@ -191,7 +191,7 @@
                         <textarea name="cMessage" id="cMessage" class="full-width" placeholder="Tvoja správa*"></textarea>
                         </div>
 
-                        <button type="submit" name ="submit" class="submit btn btn--primary btn--large full-width">Send Message</button>
+                        <button type="submit" name ="submit" class="submit btn btn--primary btn--large full-width">Odoslať spŕavu</button>
 
                     </fieldset>
                 </form> 
