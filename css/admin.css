@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#formWrap {
+    background-color: darkgray;
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+    border: 2px solid black;
+}
+
+#Element {
+    background-color: gainsboro;
+}
+
+#error {
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+#loginForm {
+    border: 2px solid black;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    align-content: center;
+    display: block;
+    margin: 10px auto;
+    background-color: silver;
+}
+
+#prewrite{
+    color: goldenrod;
+    display: inline;
+}
+
+#msg {
+    color: goldenrod;
+}
+@media only screen and (max-width: 600px) {
+    #formWrap {
+        background-color: darkgray;
+        text-align: center;
+        width: 100%;
+        margin: 5px 0px;
+        border: 2px solid black;
+    }
+}
