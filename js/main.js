@@ -253,7 +253,7 @@
 
 
    /* AjaxChimp
-    * ------------------------------------------------------ */
+    * ------------------------------------------------------ 
     var clAjaxChimp = function() {
         
         $('#mc-form').ajaxChimp({
@@ -274,15 +274,16 @@
 
         $.ajaxChimp.translations.es = {
             'submit': 'Submitting...',
-            0: '<i class="fas fa-check"></i> We have sent you a confirmation email',
-            1: '<i class="fas fa-exclamation-circle"></i> You must enter a valid e-mail address.',
-            2: '<i class="fas fa-exclamation-circle"></i> E-mail address is not valid.',
-            3: '<i class="fas fa-exclamation-circle"></i> E-mail address is not valid.',
-            4: '<i class="fas fa-exclamation-circle"></i> E-mail address is not valid.',
-            5: '<i class="fas fa-exclamation-circle"></i> E-mail address is not valid.'
+            0: '<i class="fas fa-check"></i>Odoslali sme ti potvrdzujúci E-mail.',
+            1: '<i class="fas fa-exclamation-circle"></i> Vyplň prosím vyššie uvedené textové pole!',
+            2: '<i class="fas fa-exclamation-circle"></i> E-mailová adresa je neplatná',
+            3: '<i class="fas fa-exclamation-circle"></i> E-mailová adresa je neplatná',
+            4: '<i class="fas fa-exclamation-circle"></i> E-mailová adresa je neplatná',
+            5: '<i class="fas fa-exclamation-circle"></i> E-mailová adresa je neplatná'
         } 
 
     };
+    */
 
 
    /* Back to Top
