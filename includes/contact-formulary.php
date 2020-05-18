@@ -31,7 +31,7 @@
 
                 //skontroluje a vykoná DB insert statement (ochrana pred SQL injection)
                 if (!mysqli_stmt_prepare($stmt, $sql)) {
-                    echo "There has been an error while executing SQL statement";
+                    echo "There has been an error while executing SQL statement".mysqli_error($conn);
                     exit();
 
                 } else {
